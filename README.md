@@ -5,6 +5,7 @@ My solutions to http://projecteuler.net/ problems.
 
 ### File naming
 xxxx.tt - First solution. Fixed parameters.
+
 xxxx_alt.tt - Alternatives, revisions. With execution time comparison and changeable parameters.
 
 Languages
