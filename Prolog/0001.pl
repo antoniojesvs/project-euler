@@ -18,3 +18,8 @@ euler1(A, B, Limit) :-
   sci(Limit//LCM_AB, SCI_LCM_AB),
   R is A*(SCI_A) + B*(SCI_B) - LCM_AB*(SCI_LCM_AB),
   writeln(R),!.
+
+main :-
+  euler1(3, 5, 1000).
+
+:- initialization(main).
