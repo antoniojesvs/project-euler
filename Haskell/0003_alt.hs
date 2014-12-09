@@ -45,7 +45,7 @@ run = do
 	putStr "\nResult euler3c: "; time $ euler3c n
 
 handler :: SomeException -> IO ()  
-handler e = putStrLn $ "Error. Usage: runhaskell 600851475143"
+handler e = putStrLn $ "Error. Usage: runhaskell 0003_alt.hs 600851475143"
 
 time :: IO () -> IO ()
 time a = do
